@@ -1,0 +1,14 @@
+# .gitignore (recommended)
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+output/
+src/*.db
+breast_demo.db
+.env
+.vscode/
+.DS_Store
