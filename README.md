@@ -4,7 +4,7 @@ This demo shows a lightweight, interview-ready pipeline for a healthcare ML task
 - Ingest the Wisconsin Breast Cancer dataset (scikit-learn)
 - Simulate clinical records and store in a SQLite DB
 - Anonymise patient identifiers (hashing)
-- Train baseline models (Logistic Regression, Random Forest)
+- Train baseline models (Logistic Regression)
 - Evaluate with ROC-AUC and PR-AUC; output reports and plots
 - (Optional) Streamlit UI for running the pipeline
 
@@ -35,4 +35,7 @@ Outputs will appear in `src/output/`:
 ```bash
 streamlit run app.py
 ```
+<img width="1500" height="747" alt="image" src="https://github.com/user-attachments/assets/d00830b1-65af-48c3-824b-7c9125cfb15e" />
+<img width="1434" height="1137" alt="image" src="https://github.com/user-attachments/assets/7e037003-8f73-4445-8758-7bc0c6cf72f7" />
+
 
